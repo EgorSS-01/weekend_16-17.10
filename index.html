@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main_body {
+        margin: 0;
+        background-color: grey;
+        display: flex;
+        flex-direction: row;
+        /* align-content: space-between; */
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .content ul {
+        background-color: red;
+      }
+
+      .content > ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 60vw;
+      }
+
+      .li {
+        list-style-type: none;
+        font-size: 20px;
+        font-weight: 600;
+        background: lightblue;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 5px px;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body class="main_body">
+    <!-- <p>Это <span style="color: red">красное</span> слово.</p>
+
+    <p>Be <strong>bold</strong> and brave.</p>
+
+    <img src="example.jpg" alt="Это пример изображения" />\
+    <img src="example.jpg" alt="Это пример изображения" />
+
+    <div style="background-color: lightgray">
+      <h1>Это заголовок</h1>
+      <p>Это абзац текста — пример блочного элемента.</p>
+    </div> -->
+
+    <!-- <div
+      style="background-color: darksalmon; display: inline-block; height: 100vh"
+    >
+      Side bar
+    </div>
+    <div style="display: inline-block; height: 250px; padding: 25px">
+      <h1>Greetings</h1>
+    </div> -->
+
+    <div class="side_bar">Side bar</div>
+    <div class="content">
+      <h1>Greetings</h1>
+      <ul>
+        <li class="li">123</li>
+        <li class="li">234</li>
+        <li class="li">345</li>
+        <li class="li">456</li>
+        <li class="li">567</li>
+        <li class="li">123</li>
+        <li class="li">234</li>
+        <li class="li">456</li>
+        <li class="li">qwerwer</li>
+      </ul>
+      <div>
+        <ul>
+          <li>UL IN DIV</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
